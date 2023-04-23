@@ -12,6 +12,7 @@ body {
     color: whitesmoke;
     align-items: center;
     width: 100%;
+    animation: fade-in 3s 1s backwards;
 }
 
 .navbar-left {
@@ -51,6 +52,7 @@ body {
     flex-grow: 1;
     justify-content: center;
     text-align: center;
+    animation: fade-in-from-bottom 3s;
 }
 
 .title-subsection > * {
@@ -210,3 +212,13 @@ body {
     cursor: pointer;
     color: rgba(255, 255, 255, 1);
 }
+
+@keyframes fade-in {
+    0%   {opacity: 0;}
+    100% {opacity: 1;}
+  }
+
+  @keyframes fade-in-from-bottom {
+    0%   {opacity: 0; transform: translate(0, 200px);}
+    100% {opacity: 1;}
+  }
