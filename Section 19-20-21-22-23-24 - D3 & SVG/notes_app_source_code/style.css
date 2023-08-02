@@ -1,0 +1,83 @@
+body {
+  background-color: #e4e4e4;
+}
+
+h1 {
+  text-align: center;
+}
+
+#notes {
+  margin: 0 auto;
+  width: 75%;
+}
+
+.hidden{
+  display: none;
+}
+
+.note {
+  background-color: #fdffb7;
+  border: 8px solid #d4daa7;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.preview-note {
+  background-color: #bdffb7;
+  border: 8px solid #4cad5f;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.input-bar {
+  display: flex;
+  justify-content: center;
+  gap:5px;
+  
+}
+
+input {
+  width: 50%;
+}
+
+input,
+button {
+  padding: 10px;
+}
+
+#new-note {
+  background-color: #ff9494;
+  border: none;
+  border-radius: 5px;
+}
+
+#new-note:hover {
+  cursor: pointer;
+  background-color: #fe2222;
+}
+
+#remove-notes {
+  background-color: #cc2222;
+  border: none;
+  border-radius: 5px;
+}
+
+#remove-notes:hover {
+  cursor: pointer;
+  background-color: #7a0505;
+}
+
+#feeling-lucky {
+  background-color: #22cc41;
+  border: none;
+  border-radius: 5px;
+}
+
+#feeling-lucky:hover {
+  cursor: pointer;
+  background-color: #057a28;
+}
+
+button:focus {
+  outline: none;
+}

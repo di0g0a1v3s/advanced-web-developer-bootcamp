@@ -17,11 +17,18 @@
     <p class="note">
       Here's another note.
     </p>
+    
   </div>
-  <form id="new-note">
+  <div id="notes">
+    <p class="preview-note hidden"></p>
+  </div>
+  
+  <div class="input-bar">
     <input type="text">
-    <button>Add Note</button>
-  </form>
+    <button id="new-note">Add Note</button>
+    <button id="remove-notes">Remove All Notes</button>
+    <button id="feeling-lucky">I'm felling lucky</button>
+  </div>
   <script src="https://d3js.org/d3.v4.js"></script>
   <script src="app.js"></script>
 </body>
